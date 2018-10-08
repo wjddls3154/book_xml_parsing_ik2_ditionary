@@ -14,6 +14,8 @@
 		0A184F4E216A2D96003DE682 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A184F4C216A2D96003DE682 /* LaunchScreen.storyboard */; };
 		0A184F59216A2D97003DE682 /* book_xml_parsing_ik2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A184F58216A2D97003DE682 /* book_xml_parsing_ik2Tests.swift */; };
 		0A184F64216A2D97003DE682 /* book_xml_parsing_ik2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A184F63216A2D97003DE682 /* book_xml_parsing_ik2UITests.swift */; };
+		0A184F72216A2EAB003DE682 /* book.xml in Resources */ = {isa = PBXBuildFile; fileRef = 0A184F71216A2EAB003DE682 /* book.xml */; };
+		0A184F76216A2F09003DE682 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A184F75216A2F09003DE682 /* TableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		0A184F5F216A2D97003DE682 /* book_xml_parsing_ik2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = book_xml_parsing_ik2UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0A184F63216A2D97003DE682 /* book_xml_parsing_ik2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = book_xml_parsing_ik2UITests.swift; sourceTree = "<group>"; };
 		0A184F65216A2D97003DE682 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0A184F71216A2EAB003DE682 /* book.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = book.xml; sourceTree = "<group>"; };
+		0A184F75216A2F09003DE682 /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +101,8 @@
 		0A184F42216A2D96003DE682 /* book_xml_parsing_ik2 */ = {
 			isa = PBXGroup;
 			children = (
+				0A184F75216A2F09003DE682 /* TableViewCell.swift */,
+				0A184F71216A2EAB003DE682 /* book.xml */,
 				0A184F43216A2D96003DE682 /* AppDelegate.swift */,
 				0A184F45216A2D96003DE682 /* ViewController.swift */,
 				0A184F47216A2D96003DE682 /* Main.storyboard */,
@@ -234,6 +240,7 @@
 			files = (
 				0A184F4E216A2D96003DE682 /* LaunchScreen.storyboard in Resources */,
 				0A184F4B216A2D96003DE682 /* Assets.xcassets in Resources */,
+				0A184F72216A2EAB003DE682 /* book.xml in Resources */,
 				0A184F49216A2D96003DE682 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -259,6 +266,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0A184F76216A2F09003DE682 /* TableViewCell.swift in Sources */,
 				0A184F46216A2D96003DE682 /* ViewController.swift in Sources */,
 				0A184F44216A2D96003DE682 /* AppDelegate.swift in Sources */,
 			);
